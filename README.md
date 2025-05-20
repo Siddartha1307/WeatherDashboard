@@ -23,7 +23,7 @@ A responsive and modern web app that provides real-time weather forecasts for an
 
 1. Clone the repository:
 
-git clone https://github.com/Siddhartha1307/Weather-Forecast-Dashboard.git
+git clone https://github.com/Siddhartha1307/WeatherDashboard.git
 cd Weather-Forecast-Dashboard
 
 2.Replace YOUR_API_KEY in script.js with your OpenWeatherMap API key.
