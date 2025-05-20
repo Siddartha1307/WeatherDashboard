@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weatherly - Global Forecast</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🌍 Weatherly</h1>
+    <p class="tagline">Live Weather Forecast for Any City</p>
+
+    <input id="cityInput" type="text" placeholder="Enter city (e.g., Tokyo,JP)">
+    <div class="buttons">
+      <button onclick="getWeather()">Get Weather</button>
+      <button onclick="getLocationWeather()">📍 Use My Location</button>
+      <button onclick="toggleUnit()">Toggle °F/°C</button>
+      <button onclick="toggleDarkMode()">🌓 Theme</button>
+    </div>
+
+    <div id="favorites" class="favorites"></div>
+    <div id="weatherResult"></div>
+    <canvas id="weatherChart" height="150"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
